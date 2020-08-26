@@ -21,4 +21,4 @@ for (var i = 0; i < cognomi.length; i++){
 
 // Scrivo in che posizione si trova il cognome inserito dall'utente
 
-console.log(cognomi.indexOf(cognomeUser) + 1);
+document.getElementById('numero').innerHTML = cognomi.indexOf(cognomeUser) + 1;
